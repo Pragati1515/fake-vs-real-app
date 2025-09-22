@@ -15,6 +15,14 @@ from sklearn.tree import DecisionTreeClassifier
 from scipy.sparse import hstack
 import matplotlib.pyplot as plt
 import seaborn as sns
+import spacy
+import spacy.cli
+# Download the model if not already installed
+spacy.cli.download("en_core_web_sm")
+
+# Load the model
+nlp = spacy.load("en_core_web_sm")
+
 
 # ============================
 # Load NLP resources
