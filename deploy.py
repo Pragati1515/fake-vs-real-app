@@ -22,8 +22,6 @@ spacy.cli.download("en_core_web_sm")
 
 # Load the model
 nlp = spacy.load("en_core_web_sm")
-
-
 # ============================
 # Load NLP resources
 # ============================
